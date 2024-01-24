@@ -1,3 +1,22 @@
 git add filename
 git commit -m "Mssage"
 git push
+
+git config --global user.email "@kitservices.in"
+
+git config --global user.password "    "
+
+git config --global user.name "name"
+
+eval "$(ssh-agent -s)"
+ssh-add -l -E sha256
+
+ssh-keygen -t ed25519 -C "darshan@kitservices.in"
+
+clip < ~/.ssh/id_ed25519.pub
+
+git remote add origin https://github.com/darshankit/first.git
+
+https://github.com/darshankit/first.git
+
+git@github.com:darshankit/first.git
